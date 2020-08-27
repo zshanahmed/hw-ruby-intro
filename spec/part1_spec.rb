@@ -52,11 +52,11 @@ describe 'Ruby intro part 1' do
       expect(sum_to_n?([-1, -2, 3, 4, 6, -8], 12)).to be false # no two elements that sum
     end
     #    for rspec 2.14.1
-    # it "returns false for the single element array [5 points]" , points: 5 do
+    # it 'returns false for the single element array [5 points]', points: 5 do
     #   sum_to_n?([1], 1).should be_false
     #   sum_to_n?([3], 0).should be_false
     # end
-    # it "returns false for the empty array [5 points]" , points: 5 do
+    # it 'returns false for the empty array [5 points]', points: 5 do
     #   sum_to_n?([], 0).should be_false
     #   sum_to_n?([], 7).should be_false
     # end
