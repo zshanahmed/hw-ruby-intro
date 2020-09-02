@@ -45,32 +45,32 @@ describe 'Ruby intro part 1' do
     end
   end
 
-  describe '#abs_difference_is_n?' do
-    it 'must be defined' do
-      expect { abs_difference_is_n?([1, 2, 3], 4) }.not_to raise_error
-    end
-    it 'returns true when any two elements sum to the second argument [30 points]', points: 30 do
-      expect(abs_difference_is_n?([1, 2, 3, 4, 5], 4)).to be true
-      expect(abs_difference_is_n?([3, 0, 5], 5)).to be true
-      expect(abs_difference_is_n?([-1, -2, 3, 4, 5, -8], -12)).to be false
-      expect(abs_difference_is_n?([-1, -2, 3, 4, 6, -8], -12)).to be false
-    end
-    #    for rspec 2.14.1
-    # it 'returns false for the single element array [5 points]', points: 5 do
-    #   sum_to_n?([1], 1).should be_false
-    #   sum_to_n?([3], 0).should be_false
-    # end
-    # it 'returns false for the empty array [5 points]', points: 5 do
-    #   sum_to_n?([], 0).should be_false
-    #   sum_to_n?([], 7).should be_false
-    # end
-    it 'returns false for any single element array [5 points]', points: 5 do
-      expect(abs_difference_is_n?([1], 1)).to be false
-      expect(abs_difference_is_n?([3], 0)).to be false
-    end
-    it 'returns false for an empty array [5 points]', points: 5 do
-      expect(abs_difference_is_n?([], 0)).to be false
-      expect(abs_difference_is_n?([], 7)).to be false
-    end
-  end
+#   describe '#abs_difference_is_n?' do
+#     it 'must be defined' do
+#       expect { abs_difference_is_n?([1, 2, 3], 4) }.not_to raise_error
+#     end
+#     it 'returns true when the absolute of the difference of any two elements is equal to the second argument [30 points]', points: 30 do
+#       expect(abs_difference_is_n?([1, 2, 3, 4, 5], 4)).to be true
+#       expect(abs_difference_is_n?([3, 0, 5], 5)).to be true
+#       expect(abs_difference_is_n?([-1, -2, 3, 4, 5, -8], -12)).to be false
+#       expect(abs_difference_is_n?([-1, -2, 3, 4, 6, -8], -12)).to be false
+#     end
+#     #    for rspec 2.14.1
+#     # it 'returns false for the single element array [5 points]', points: 5 do
+#     #   sum_to_n?([1], 1).should be_false
+#     #   sum_to_n?([3], 0).should be_false
+#     # end
+#     # it 'returns false for the empty array [5 points]', points: 5 do
+#     #   sum_to_n?([], 0).should be_false
+#     #   sum_to_n?([], 7).should be_false
+#     # end
+#     it 'returns false for any single element array [5 points]', points: 5 do
+#       expect(abs_difference_is_n?([1], 1)).to be false
+#       expect(abs_difference_is_n?([3], 0)).to be false
+#     end
+#     it 'returns false for an empty array [5 points]', points: 5 do
+#       expect(abs_difference_is_n?([], 0)).to be false
+#       expect(abs_difference_is_n?([], 7)).to be false
+#     end
+#   end
 end

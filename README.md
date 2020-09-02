@@ -70,9 +70,13 @@ exercises. :-)
    returns the product of its even elements. For an empty array, or an array with no even elements
    it should return zero. For an array with just one even element, it should return that element.
 
+<!--
+
+Should be abs_difference_is_n?
 0. Define a method `abs_square_is_n?(array)` that takes an array of integers and an additional
    integer, n, as arguments and returns true if any elements in the array of integers have an absolute
    squared value of n. An array with zero elements should return false.
+-->
 
 You can check your progress by running:
 ```bash
