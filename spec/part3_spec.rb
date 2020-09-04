@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require_relative '../lib/ruby_intro'
-
 describe 'BookInStock' do
   it 'is defined' do
     expect { BookInStock }.not_to raise_error
